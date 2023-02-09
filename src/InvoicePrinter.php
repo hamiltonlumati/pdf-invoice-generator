@@ -85,7 +85,7 @@ class InvoicePrinter extends FPDF
     protected $displayToFromHeaders = true;
     protected $columns = 1;
 
-    public function __construct($size = self::INVOICE_SIZE_A4, $currency = '$', $language = 'en')
+    public function __construct($size = self::INVOICE_SIZE_A4, $currency = 'AOA', $language = 'pt')
     {
         $this->items = [];
         $this->totals = [];
